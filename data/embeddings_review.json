@@ -1,0 +1,74 @@
+[
+    {
+        "id": "e584ea897d253adcbd9d994e60d96965",
+        "metadata": {
+            "scheme_name": "HDFC Large Cap Fund",
+            "document_type": "Scheme Page",
+            "scrape_date": "2026-07-10",
+            "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "chunk_index": 0
+        },
+        "document_preview": "HDFC Large Cap Fund Direct Growth - NAV, Mutual Fund Performance & Portfolio\nStocks\nInvest in Stocks\nInvest in stocks, ETFs, IPOs with fast orders. Track returns on your stock holdings and view real-t...",
+        "embedding_dimensions": 1024,
+        "embedding_preview": [
+            -0.002207899931818247,
+            0.02307242341339588,
+            -0.005061549600213766,
+            0.02912619151175022,
+            -0.018731337040662766,
+            0.0004768769140355289,
+            0.035254597663879395,
+            0.011410738341510296,
+            0.06868848949670792,
+            0.05609166622161865
+        ]
+    },
+    {
+        "id": "3ad2b111fbbd74146648314acd5f233e",
+        "metadata": {
+            "chunk_index": 1,
+            "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "scheme_name": "HDFC Large Cap Fund",
+            "document_type": "Scheme Page",
+            "scrape_date": "2026-07-10"
+        },
+        "document_preview": "Terminal\nTrack charts, orders, positions, watchlists in one place\nOption chain\nAnalyse chains, view payoffs, create baskets\nPledge\nGet extra balance for trading\nCommodities\nTrade in Crude Oil, Gold, S...",
+        "embedding_dimensions": 1024,
+        "embedding_preview": [
+            0.019147004932165146,
+            0.016807522624731064,
+            -0.01341422088444233,
+            0.010676578618586063,
+            -0.01765519566833973,
+            -0.04711073637008667,
+            0.002180812181904912,
+            0.024319235235452652,
+            0.05642905458807945,
+            0.04121501371264458
+        ]
+    },
+    {
+        "id": "d51fab4cffd1ef826061b56d1d033cd6",
+        "metadata": {
+            "document_type": "Scheme Page",
+            "scrape_date": "2026-07-10",
+            "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "scheme_name": "HDFC Large Cap Fund",
+            "chunk_index": 2
+        },
+        "document_preview": "More\nSIP calculator\nEstimate returns on a SIP\nBrokerage calculator\nEstimate charges for your trade/investment\nMargin calculator\nEstimate balance needed to buy/sell a stock\nSWP calculator\nReturns on yo...",
+        "embedding_dimensions": 1024,
+        "embedding_preview": [
+            -0.004666579887270927,
+            0.02938096970319748,
+            -0.025758452713489532,
+            0.008639691397547722,
+            -0.014590167440474033,
+            -0.04125237837433815,
+            0.017486922442913055,
+            0.011428624391555786,
+            0.0338800773024559,
+            0.03716183453798294
+        ]
+    }
+]
