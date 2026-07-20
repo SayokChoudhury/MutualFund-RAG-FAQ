@@ -3,7 +3,7 @@ import json
 import logging
 import datetime
 from urllib.parse import urlparse
-import requests
+from curl_cffi import requests
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
@@ -20,21 +20,21 @@ URLS = [
     {"url": "https://groww.in/mutual-funds/hdfc-silver-etf-fof-direct-growth", "method": "playwright", "category": "groww", "scheme_name": "HDFC Silver ETF FoF", "document_type": "Scheme Page"},
     
     # HDFC AMC Official
-    {"url": "https://www.hdfcfund.com/mutual-funds/equity/hdfc-large-cap-fund", "method": "requests", "category": "hdfc_amc", "scheme_name": "HDFC Large Cap Fund", "document_type": "Factsheet"},
-    {"url": "https://www.hdfcfund.com/mutual-funds/equity/hdfc-mid-cap-opportunities-fund", "method": "requests", "category": "hdfc_amc", "scheme_name": "HDFC Mid-Cap Fund", "document_type": "Factsheet"},
-    {"url": "https://www.hdfcfund.com/mutual-funds/equity/hdfc-small-cap-fund", "method": "requests", "category": "hdfc_amc", "scheme_name": "HDFC Small Cap Fund", "document_type": "Factsheet"},
-    {"url": "https://www.hdfcfund.com/mutual-funds/other-funds/hdfc-gold-fund", "method": "requests", "category": "hdfc_amc", "scheme_name": "HDFC Gold ETF Fund of Fund", "document_type": "Factsheet"},
-    {"url": "https://www.hdfcfund.com/mutual-funds/other-funds/hdfc-silver-etf-fund-of-funds", "method": "requests", "category": "hdfc_amc", "scheme_name": "HDFC Silver ETF FoF", "document_type": "Factsheet"},
+    {"url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/regular", "method": "requests", "category": "hdfc_amc", "scheme_name": "HDFC Large Cap Fund", "document_type": "Factsheet"},
+    {"url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/regular", "method": "requests", "category": "hdfc_amc", "scheme_name": "HDFC Mid-Cap Fund", "document_type": "Factsheet"},
+    {"url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/regular", "method": "requests", "category": "hdfc_amc", "scheme_name": "HDFC Small Cap Fund", "document_type": "Factsheet"},
+    {"url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-gold-etf-fund-fund/regular", "method": "requests", "category": "hdfc_amc", "scheme_name": "HDFC Gold ETF Fund of Fund", "document_type": "Factsheet"},
+    {"url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-silver-etf-fund-fund/regular", "method": "requests", "category": "hdfc_amc", "scheme_name": "HDFC Silver ETF FoF", "document_type": "Factsheet"},
     
     # HDFC AMC SID/KIM/SAI
-    {"url": "https://www.hdfcfund.com/statutory-information/scheme-information-documents", "method": "requests", "category": "sid_kim_sai", "scheme_name": "General", "document_type": "SID"},
-    {"url": "https://www.hdfcfund.com/statutory-information/key-information-memorandum", "method": "requests", "category": "sid_kim_sai", "scheme_name": "General", "document_type": "KIM"},
-    {"url": "https://www.hdfcfund.com/statutory-information/statement-of-additional-information", "method": "requests", "category": "sid_kim_sai", "scheme_name": "General", "document_type": "SAI"},
+    {"url": "https://www.hdfcfund.com/statutory-disclosure/scheme-information-documents", "method": "requests", "category": "sid_kim_sai", "scheme_name": "General", "document_type": "SID"},
+    {"url": "https://www.hdfcfund.com/statutory-disclosure/key-information-memorandum", "method": "requests", "category": "sid_kim_sai", "scheme_name": "General", "document_type": "KIM"},
+    {"url": "https://www.hdfcfund.com/statutory-disclosure/statement-of-additional-information", "method": "requests", "category": "sid_kim_sai", "scheme_name": "General", "document_type": "SAI"},
     
     # HDFC AMC FAQ
-    {"url": "https://www.hdfcfund.com/knowledge-center/faq", "method": "requests", "category": "hdfc_amc", "scheme_name": "General", "document_type": "FAQ"},
-    {"url": "https://www.hdfcfund.com/investor-services/account-statements", "method": "requests", "category": "hdfc_amc", "scheme_name": "General", "document_type": "Account Statements"},
-    {"url": "https://www.hdfcfund.com/investor-services/capital-gains-statement", "method": "requests", "category": "hdfc_amc", "scheme_name": "General", "document_type": "Capital Gains Statement"},
+    {"url": "https://www.hdfcfund.com/services/faqs", "method": "requests", "category": "hdfc_amc", "scheme_name": "General", "document_type": "FAQ"},
+    {"url": "https://www.hdfcfund.com/services/consolidated-account-statement", "method": "requests", "category": "hdfc_amc", "scheme_name": "General", "document_type": "Account Statements"},
+    {"url": "https://www.hdfcfund.com/learn/blog/how-get-capital-gain-statement-mutual-fund-schemes-india", "method": "requests", "category": "hdfc_amc", "scheme_name": "General", "document_type": "Capital Gains Statement"},
     
     # AMFI/SEBI
     {"url": "https://www.amfiindia.com/investor-corner/knowledge-center/what-are-mutual-funds.html", "method": "requests", "category": "amfi_sebi", "scheme_name": "General", "document_type": "Educational"},
@@ -59,7 +59,7 @@ class Scraper:
 
     def fetch_static(self, url):
         try:
-            response = requests.get(url, headers=self.headers, timeout=15)
+            response = requests.get(url, headers=self.headers, timeout=15, impersonate="chrome120")
             response.raise_for_status()
             return response.text
         except Exception as e:

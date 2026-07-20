@@ -40,92 +40,92 @@
         "processed_file": "data/processed/groww.in_mutual-funds_hdfc-silver-etf-fof-direct-growth.txt"
     },
     {
-        "source_url": "https://www.hdfcfund.com/mutual-funds/equity/hdfc-large-cap-fund",
+        "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/regular",
         "scheme_name": "HDFC Large Cap Fund",
         "document_type": "Factsheet",
         "scrape_date": "2026-07-20",
-        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_mutual-funds_equity_hdfc-large-cap-fund.html",
-        "processed_file": "data/processed/www.hdfcfund.com_mutual-funds_equity_hdfc-large-cap-fund.txt"
+        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_explore_mutual-funds_hdfc-large-cap-fund_regular.html",
+        "processed_file": "data/processed/www.hdfcfund.com_explore_mutual-funds_hdfc-large-cap-fund_regular.txt"
     },
     {
-        "source_url": "https://www.hdfcfund.com/mutual-funds/equity/hdfc-mid-cap-opportunities-fund",
+        "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/regular",
         "scheme_name": "HDFC Mid-Cap Fund",
         "document_type": "Factsheet",
         "scrape_date": "2026-07-20",
-        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_mutual-funds_equity_hdfc-mid-cap-opportunities-fund.html",
-        "processed_file": "data/processed/www.hdfcfund.com_mutual-funds_equity_hdfc-mid-cap-opportunities-fund.txt"
+        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_explore_mutual-funds_hdfc-mid-cap-fund_regular.html",
+        "processed_file": "data/processed/www.hdfcfund.com_explore_mutual-funds_hdfc-mid-cap-fund_regular.txt"
     },
     {
-        "source_url": "https://www.hdfcfund.com/mutual-funds/equity/hdfc-small-cap-fund",
+        "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/regular",
         "scheme_name": "HDFC Small Cap Fund",
         "document_type": "Factsheet",
         "scrape_date": "2026-07-20",
-        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_mutual-funds_equity_hdfc-small-cap-fund.html",
-        "processed_file": "data/processed/www.hdfcfund.com_mutual-funds_equity_hdfc-small-cap-fund.txt"
+        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_explore_mutual-funds_hdfc-small-cap-fund_regular.html",
+        "processed_file": "data/processed/www.hdfcfund.com_explore_mutual-funds_hdfc-small-cap-fund_regular.txt"
     },
     {
-        "source_url": "https://www.hdfcfund.com/mutual-funds/other-funds/hdfc-gold-fund",
+        "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-gold-etf-fund-fund/regular",
         "scheme_name": "HDFC Gold ETF Fund of Fund",
         "document_type": "Factsheet",
         "scrape_date": "2026-07-20",
-        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_mutual-funds_other-funds_hdfc-gold-fund.html",
-        "processed_file": "data/processed/www.hdfcfund.com_mutual-funds_other-funds_hdfc-gold-fund.txt"
+        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_explore_mutual-funds_hdfc-gold-etf-fund-fund_regular.html",
+        "processed_file": "data/processed/www.hdfcfund.com_explore_mutual-funds_hdfc-gold-etf-fund-fund_regular.txt"
     },
     {
-        "source_url": "https://www.hdfcfund.com/mutual-funds/other-funds/hdfc-silver-etf-fund-of-funds",
+        "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-silver-etf-fund-fund/regular",
         "scheme_name": "HDFC Silver ETF FoF",
         "document_type": "Factsheet",
         "scrape_date": "2026-07-20",
-        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_mutual-funds_other-funds_hdfc-silver-etf-fund-of-funds.html",
-        "processed_file": "data/processed/www.hdfcfund.com_mutual-funds_other-funds_hdfc-silver-etf-fund-of-funds.txt"
+        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_explore_mutual-funds_hdfc-silver-etf-fund-fund_regular.html",
+        "processed_file": "data/processed/www.hdfcfund.com_explore_mutual-funds_hdfc-silver-etf-fund-fund_regular.txt"
     },
     {
-        "source_url": "https://www.hdfcfund.com/statutory-information/scheme-information-documents",
+        "source_url": "https://www.hdfcfund.com/statutory-disclosure/scheme-information-documents",
         "scheme_name": "General",
         "document_type": "SID",
         "scrape_date": "2026-07-20",
-        "raw_file": "data/raw/sid_kim_sai/www.hdfcfund.com_statutory-information_scheme-information-documents.html",
-        "processed_file": "data/processed/www.hdfcfund.com_statutory-information_scheme-information-documents.txt"
+        "raw_file": "data/raw/sid_kim_sai/www.hdfcfund.com_statutory-disclosure_scheme-information-documents.html",
+        "processed_file": "data/processed/www.hdfcfund.com_statutory-disclosure_scheme-information-documents.txt"
     },
     {
-        "source_url": "https://www.hdfcfund.com/statutory-information/key-information-memorandum",
+        "source_url": "https://www.hdfcfund.com/statutory-disclosure/key-information-memorandum",
         "scheme_name": "General",
         "document_type": "KIM",
         "scrape_date": "2026-07-20",
-        "raw_file": "data/raw/sid_kim_sai/www.hdfcfund.com_statutory-information_key-information-memorandum.html",
-        "processed_file": "data/processed/www.hdfcfund.com_statutory-information_key-information-memorandum.txt"
+        "raw_file": "data/raw/sid_kim_sai/www.hdfcfund.com_statutory-disclosure_key-information-memorandum.html",
+        "processed_file": "data/processed/www.hdfcfund.com_statutory-disclosure_key-information-memorandum.txt"
     },
     {
-        "source_url": "https://www.hdfcfund.com/statutory-information/statement-of-additional-information",
+        "source_url": "https://www.hdfcfund.com/statutory-disclosure/statement-of-additional-information",
         "scheme_name": "General",
         "document_type": "SAI",
         "scrape_date": "2026-07-20",
-        "raw_file": "data/raw/sid_kim_sai/www.hdfcfund.com_statutory-information_statement-of-additional-information.html",
-        "processed_file": "data/processed/www.hdfcfund.com_statutory-information_statement-of-additional-information.txt"
+        "raw_file": "data/raw/sid_kim_sai/www.hdfcfund.com_statutory-disclosure_statement-of-additional-information.html",
+        "processed_file": "data/processed/www.hdfcfund.com_statutory-disclosure_statement-of-additional-information.txt"
     },
     {
-        "source_url": "https://www.hdfcfund.com/knowledge-center/faq",
+        "source_url": "https://www.hdfcfund.com/services/faqs",
         "scheme_name": "General",
         "document_type": "FAQ",
         "scrape_date": "2026-07-20",
-        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_knowledge-center_faq.html",
-        "processed_file": "data/processed/www.hdfcfund.com_knowledge-center_faq.txt"
+        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_services_faqs.html",
+        "processed_file": "data/processed/www.hdfcfund.com_services_faqs.txt"
     },
     {
-        "source_url": "https://www.hdfcfund.com/investor-services/account-statements",
+        "source_url": "https://www.hdfcfund.com/services/consolidated-account-statement",
         "scheme_name": "General",
         "document_type": "Account Statements",
         "scrape_date": "2026-07-20",
-        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_investor-services_account-statements.html",
-        "processed_file": "data/processed/www.hdfcfund.com_investor-services_account-statements.txt"
+        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_services_consolidated-account-statement.html",
+        "processed_file": "data/processed/www.hdfcfund.com_services_consolidated-account-statement.txt"
     },
     {
-        "source_url": "https://www.hdfcfund.com/investor-services/capital-gains-statement",
+        "source_url": "https://www.hdfcfund.com/learn/blog/how-get-capital-gain-statement-mutual-fund-schemes-india",
         "scheme_name": "General",
         "document_type": "Capital Gains Statement",
         "scrape_date": "2026-07-20",
-        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_investor-services_capital-gains-statement.html",
-        "processed_file": "data/processed/www.hdfcfund.com_investor-services_capital-gains-statement.txt"
+        "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_learn_blog_how-get-capital-gain-statement-mutual-fund-schemes-india.html",
+        "processed_file": "data/processed/www.hdfcfund.com_learn_blog_how-get-capital-gain-statement-mutual-fund-schemes-india.txt"
     },
     {
         "source_url": "https://www.amfiindia.com/investor-corner/knowledge-center/what-are-mutual-funds.html",
