@@ -32,7 +32,6 @@ source .venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
-playwright install chromium
 
 # Setup environment variables
 cp .env.example .env
@@ -40,8 +39,10 @@ cp .env.example .env
 ```
 
 ### 2. Data Ingestion
-Before running the app, you need to populate the local vector database by scraping the latest mutual fund data:
+Before running the app, you need to populate the local vector database by scraping the latest mutual fund data. This requires installing the data-ingestion dependencies:
 ```bash
+pip install -r requirements-dev.txt
+playwright install chromium
 python scripts/ingest.py
 ```
 *(Use `--force` to overwrite existing data).*

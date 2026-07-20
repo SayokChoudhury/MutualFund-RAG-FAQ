@@ -4,10 +4,8 @@ FROM python:3.9-slim
 # Set the working directory
 WORKDIR /app
 
-# Install system dependencies required for Playwright and building packages
+# Install system dependencies required for building packages
 RUN apt-get update && apt-get install -y \
-    wget \
-    gnupg \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
@@ -16,9 +14,6 @@ COPY requirements.txt .
 
 # Install python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
-
-# Install playwright dependencies (browser binaries)
-RUN playwright install --with-deps chromium
 
 # Copy the rest of the application code
 COPY . .
