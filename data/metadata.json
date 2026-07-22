@@ -3,7 +3,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
         "scheme_name": "HDFC Large Cap Fund",
         "document_type": "Scheme Page",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/groww/groww.in_mutual-funds_hdfc-large-cap-fund-direct-growth.html",
         "processed_file": "data/processed/groww.in_mutual-funds_hdfc-large-cap-fund-direct-growth.txt"
     },
@@ -11,7 +11,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
         "scheme_name": "HDFC Mid-Cap Fund",
         "document_type": "Scheme Page",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/groww/groww.in_mutual-funds_hdfc-mid-cap-fund-direct-growth.html",
         "processed_file": "data/processed/groww.in_mutual-funds_hdfc-mid-cap-fund-direct-growth.txt"
     },
@@ -19,7 +19,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
         "scheme_name": "HDFC Small Cap Fund",
         "document_type": "Scheme Page",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/groww/groww.in_mutual-funds_hdfc-small-cap-fund-direct-growth.html",
         "processed_file": "data/processed/groww.in_mutual-funds_hdfc-small-cap-fund-direct-growth.txt"
     },
@@ -27,7 +27,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
         "scheme_name": "HDFC Gold ETF Fund of Fund",
         "document_type": "Scheme Page",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/groww/groww.in_mutual-funds_hdfc-gold-etf-fund-of-fund-direct-plan-growth.html",
         "processed_file": "data/processed/groww.in_mutual-funds_hdfc-gold-etf-fund-of-fund-direct-plan-growth.txt"
     },
@@ -35,7 +35,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-silver-etf-fof-direct-growth",
         "scheme_name": "HDFC Silver ETF FoF",
         "document_type": "Scheme Page",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/groww/groww.in_mutual-funds_hdfc-silver-etf-fof-direct-growth.html",
         "processed_file": "data/processed/groww.in_mutual-funds_hdfc-silver-etf-fof-direct-growth.txt"
     },
@@ -43,7 +43,7 @@
         "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/regular",
         "scheme_name": "HDFC Large Cap Fund",
         "document_type": "Factsheet",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_explore_mutual-funds_hdfc-large-cap-fund_regular.html",
         "processed_file": "data/processed/www.hdfcfund.com_explore_mutual-funds_hdfc-large-cap-fund_regular.txt"
     },
@@ -51,7 +51,7 @@
         "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/regular",
         "scheme_name": "HDFC Mid-Cap Fund",
         "document_type": "Factsheet",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_explore_mutual-funds_hdfc-mid-cap-fund_regular.html",
         "processed_file": "data/processed/www.hdfcfund.com_explore_mutual-funds_hdfc-mid-cap-fund_regular.txt"
     },
@@ -59,7 +59,7 @@
         "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/regular",
         "scheme_name": "HDFC Small Cap Fund",
         "document_type": "Factsheet",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_explore_mutual-funds_hdfc-small-cap-fund_regular.html",
         "processed_file": "data/processed/www.hdfcfund.com_explore_mutual-funds_hdfc-small-cap-fund_regular.txt"
     },
@@ -67,7 +67,7 @@
         "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-gold-etf-fund-fund/regular",
         "scheme_name": "HDFC Gold ETF Fund of Fund",
         "document_type": "Factsheet",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_explore_mutual-funds_hdfc-gold-etf-fund-fund_regular.html",
         "processed_file": "data/processed/www.hdfcfund.com_explore_mutual-funds_hdfc-gold-etf-fund-fund_regular.txt"
     },
@@ -75,7 +75,7 @@
         "source_url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-silver-etf-fund-fund/regular",
         "scheme_name": "HDFC Silver ETF FoF",
         "document_type": "Factsheet",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_explore_mutual-funds_hdfc-silver-etf-fund-fund_regular.html",
         "processed_file": "data/processed/www.hdfcfund.com_explore_mutual-funds_hdfc-silver-etf-fund-fund_regular.txt"
     },
@@ -83,7 +83,7 @@
         "source_url": "https://www.hdfcfund.com/statutory-disclosure/scheme-information-documents",
         "scheme_name": "General",
         "document_type": "SID",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/sid_kim_sai/www.hdfcfund.com_statutory-disclosure_scheme-information-documents.html",
         "processed_file": "data/processed/www.hdfcfund.com_statutory-disclosure_scheme-information-documents.txt"
     },
@@ -91,7 +91,7 @@
         "source_url": "https://www.hdfcfund.com/statutory-disclosure/key-information-memorandum",
         "scheme_name": "General",
         "document_type": "KIM",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/sid_kim_sai/www.hdfcfund.com_statutory-disclosure_key-information-memorandum.html",
         "processed_file": "data/processed/www.hdfcfund.com_statutory-disclosure_key-information-memorandum.txt"
     },
@@ -99,7 +99,7 @@
         "source_url": "https://www.hdfcfund.com/statutory-disclosure/statement-of-additional-information",
         "scheme_name": "General",
         "document_type": "SAI",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/sid_kim_sai/www.hdfcfund.com_statutory-disclosure_statement-of-additional-information.html",
         "processed_file": "data/processed/www.hdfcfund.com_statutory-disclosure_statement-of-additional-information.txt"
     },
@@ -107,7 +107,7 @@
         "source_url": "https://www.hdfcfund.com/services/faqs",
         "scheme_name": "General",
         "document_type": "FAQ",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_services_faqs.html",
         "processed_file": "data/processed/www.hdfcfund.com_services_faqs.txt"
     },
@@ -115,7 +115,7 @@
         "source_url": "https://www.hdfcfund.com/services/consolidated-account-statement",
         "scheme_name": "General",
         "document_type": "Account Statements",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_services_consolidated-account-statement.html",
         "processed_file": "data/processed/www.hdfcfund.com_services_consolidated-account-statement.txt"
     },
@@ -123,7 +123,7 @@
         "source_url": "https://www.hdfcfund.com/learn/blog/how-get-capital-gain-statement-mutual-fund-schemes-india",
         "scheme_name": "General",
         "document_type": "Capital Gains Statement",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/hdfc_amc/www.hdfcfund.com_learn_blog_how-get-capital-gain-statement-mutual-fund-schemes-india.html",
         "processed_file": "data/processed/www.hdfcfund.com_learn_blog_how-get-capital-gain-statement-mutual-fund-schemes-india.txt"
     },
@@ -131,7 +131,7 @@
         "source_url": "https://www.amfiindia.com/investor-corner/knowledge-center/what-are-mutual-funds.html",
         "scheme_name": "General",
         "document_type": "Educational",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/amfi_sebi/www.amfiindia.com_investor-corner_knowledge-center_what-are-mutual-funds.html.html",
         "processed_file": "data/processed/www.amfiindia.com_investor-corner_knowledge-center_what-are-mutual-funds.html.txt"
     },
@@ -139,7 +139,7 @@
         "source_url": "https://www.amfiindia.com/investor-corner/knowledge-center/riskometer.html",
         "scheme_name": "General",
         "document_type": "Educational",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/amfi_sebi/www.amfiindia.com_investor-corner_knowledge-center_riskometer.html.html",
         "processed_file": "data/processed/www.amfiindia.com_investor-corner_knowledge-center_riskometer.html.txt"
     },
@@ -147,7 +147,7 @@
         "source_url": "https://www.sebi.gov.in/legal/regulations/jul-2023/sebi-mutual-funds-regulations-1996-last-amended-on-july-04-2023-_74404.html",
         "scheme_name": "General",
         "document_type": "Regulation",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/amfi_sebi/www.sebi.gov.in_legal_regulations_jul-2023_sebi-mutual-funds-regulations-1996-last-amended-on-july-04-2023-_74404.html.html",
         "processed_file": "data/processed/www.sebi.gov.in_legal_regulations_jul-2023_sebi-mutual-funds-regulations-1996-last-amended-on-july-04-2023-_74404.html.txt"
     },
@@ -155,7 +155,7 @@
         "source_url": "https://www.amfiindia.com/nav-history-download",
         "scheme_name": "General",
         "document_type": "NAV History",
-        "scrape_date": "2026-07-21",
+        "scrape_date": "2026-07-22",
         "raw_file": "data/raw/amfi_sebi/www.amfiindia.com_nav-history-download.html",
         "processed_file": "data/processed/www.amfiindia.com_nav-history-download.txt"
     }
